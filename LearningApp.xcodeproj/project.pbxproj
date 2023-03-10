@@ -21,6 +21,7 @@
 		872CC09729BBB2AF00EDE614 /* ContentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872CC09629BBB2AF00EDE614 /* ContentDetailView.swift */; };
 		872CC09A29BBB47100EDE614 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 872CC09929BBB47100EDE614 /* AVKit.framework */; };
 		872CC09C29BBB59400EDE614 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872CC09B29BBB59400EDE614 /* Constants.swift */; };
+		872CC09E29BBC14D00EDE614 /* CodeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872CC09D29BBC14D00EDE614 /* CodeTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		872CC09629BBB2AF00EDE614 /* ContentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDetailView.swift; sourceTree = "<group>"; };
 		872CC09929BBB47100EDE614 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		872CC09B29BBB59400EDE614 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		872CC09D29BBC14D00EDE614 /* CodeTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				872CC09229BBAB4500EDE614 /* ContentView.swift */,
 				872CC09429BBB0CC00EDE614 /* ContentViewRow.swift */,
 				872CC09629BBB2AF00EDE614 /* ContentDetailView.swift */,
+				872CC09D29BBC14D00EDE614 /* CodeTextView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 				872CC09729BBB2AF00EDE614 /* ContentDetailView.swift in Sources */,
 				872CC08F29BBA03600EDE614 /* Module.swift in Sources */,
 				872CC09529BBB0CC00EDE614 /* ContentViewRow.swift in Sources */,
+				872CC09E29BBC14D00EDE614 /* CodeTextView.swift in Sources */,
 				872CC07629BB7F4300EDE614 /* LearningApp.swift in Sources */,
 				872CC08929BB801A00EDE614 /* ContentModel.swift in Sources */,
 				872CC09C29BBB59400EDE614 /* Constants.swift in Sources */,

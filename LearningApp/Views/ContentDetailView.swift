@@ -7,6 +7,7 @@
 import AVKit
 import SwiftUI
 
+
 struct ContentDetailView: View {
     
     @EnvironmentObject var model: ContentModel
@@ -25,6 +26,7 @@ struct ContentDetailView: View {
             }
             
             //Description
+            CodeTextView()
             
             //Next lesson button
             if model.hasNextLesson() {
@@ -47,5 +49,6 @@ struct ContentDetailView: View {
             }
         }
         .padding()
+        .navigationTitle(lesson?.title ?? "")
     }
 }
